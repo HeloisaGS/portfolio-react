@@ -1,4 +1,3 @@
-// /pages/index.tsx
 
 import Header from './components/header';
 import Home from './components/home';

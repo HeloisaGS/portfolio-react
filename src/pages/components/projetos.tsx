@@ -9,10 +9,10 @@ interface Projeto{
 }
 
 interface ProjetosProps{
-    projetos: Projeto[];
+    projetos?: Projeto[];
 }
 
-function Projetos({projetos}: ProjetosProps){
+function Projetos({projetos =[]}: ProjetosProps){
     return(
         <div className="min-h-screen flex items-center justify-center flex-col text-center">
             <div className="flex flex-col  items-center mx-20">
