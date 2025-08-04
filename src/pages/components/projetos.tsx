@@ -1,6 +1,18 @@
 import CardProjeto from "./cardProjeto";
+import { StaticImageData } from 'next/image';
 
-function Projetos({projetos}){
+interface Projeto{
+    image: StaticImageData |string;
+    title: string;
+    description: string;
+    repoLink: string;
+}
+
+interface ProjetosProps{
+    projetos: Projeto[];
+}
+
+function Projetos({projetos}: ProjetosProps){
     return(
         <div className="min-h-screen bg-blue-100 flex items-center justify-center flex-col text-center">
             <div className="flex flex-col  items-center mx-20">

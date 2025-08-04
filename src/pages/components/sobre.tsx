@@ -1,12 +1,8 @@
-import java from '../image/java.png';
-import javaScript from '../image/javaScript.png';
-import mySql from '../image/mySql.png';
-import postgreSql from '../image/postgreSql.png';
-import python from '../image/python.png';
-import react from '../image/react.png'
+import Image from 'next/image';
+
 function Sobre(){
     return(
-        <div className="min-h-screen bg-blue-100 flex items-center justify-center flex-col text-center">
+        <div className="min-h-screen bg-blu}tify-center flex-col text-center">
             <div className="text-left mx-[15%]">
                 <h1 className="text-5xl font-bold mb-2 ">Sobre mim</h1>
                 <br />
@@ -19,35 +15,46 @@ function Sobre(){
                 </p>
             </div>
             <div className='flex flex-row m-20 space-x-20 flex-wrap'>
-                <img 
-                    img src={java} 
+                <Image 
+                    src="/image/java.png" 
                     alt="java" 
-                    className="h-50 mb-5" 
+                    width={70}
+                    height={50}
+
                 />
-                <img 
-                    img src={javaScript} 
+                <Image
+                    src="/image/javaScript.png" 
                     alt="javaScript" 
-                    className="h-50 mb-5" 
+
+                    width={50}
+                    height={50} 
                 />
-                <img 
-                    img src={react} 
+                <Image
+                    src="/image/react.png"
                     alt="React" 
-                    className="h-50 mb-5" 
+ 
+                    width={50}
+                    height={50}
                 />
-                <img 
-                    img src={python} 
+                <Image
+                    src="/image/python.png" 
                     alt="Pyhton" 
-                    className="h-50 mb-5" 
+ 
+                    width={50}
+                    height={50}
                 />
-                <img 
-                    img src={mySql} 
+                <Image
+                    src="/image/mySql.png" 
                     alt="MySql" 
-                    className="h-50 mb-5" 
+ 
+                    width={80}
+                    height={50}
                 />
-                <img 
-                    img src={postgreSql} 
+                <Image
+                    src="/image/postgreSql.png"
                     alt="postgreSql" 
-                    className="h-50 mb-5" 
+                    width={80}
+                    height={50}
                 />
             </div>
             

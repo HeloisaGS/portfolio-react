@@ -1,7 +1,22 @@
-function CardProjeto({ image, title, description, repoLink }) {
+import { StaticImageData } from 'next/image';
+import Image from 'next/image';
+interface CardProjetoProps{
+  image: StaticImageData | string;
+  title: string;
+  description: string;
+  repoLink: string;
+}
+
+function CardProjeto({ image, title, description, repoLink }: CardProjetoProps) {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden max-w-xs w-full">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <Image 
+        src={image} 
+        alt={title} 
+        className="w-full h-48 object-cover" 
+        width={300}
+        height={10}
+      />
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-600 mb-4 text-sm">{description}</p>

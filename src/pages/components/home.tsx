@@ -1,4 +1,4 @@
-import foto from '../image/foto.png';
+import Image from 'next/image';
 
 function Home(){
     return(
@@ -8,10 +8,12 @@ function Home(){
                     <h1 className="text-5xl font-bold mb-2">Fullstack Developer </h1>
                     <h2 className="text-3xl">Heloisa Gonçalves</h2>
                 </div>
-                <img 
-                    img src={foto} 
+                <Image
+                    src="/image/foto.png" 
                     alt="foto" 
                     className="order-1 sm:order-1 w-[200px] sm:w-[300px] object-cover rounded-full" 
+                    width={300}
+                    height={300}
                 />
             </div>
         </div>
