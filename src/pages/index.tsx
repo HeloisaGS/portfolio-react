@@ -1,4 +1,3 @@
-
 import Header from './components/header';
 import Home from './components/home';
 import Sobre from './components/sobre';
@@ -13,7 +12,7 @@ const listaDeProjetos = [
     repoLink: "https://github.com/HeloisaGS/API_hospital",
   },
   {
-    image: "/image/MoodJourney.png",
+    image: "/image/moodJourney.png",
     title: "Mood Journey",
     description: "Aplicativo de diário e gerenciamento de hábitos",
     repoLink: "https://github.com/AyrllanP/DSI",

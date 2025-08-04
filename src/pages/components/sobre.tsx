@@ -14,12 +14,13 @@ function Sobre(){
                    Concluí um curso intensivo de formação em Front-End, com o objetivo de me aprimorar constantemente como desenvolvedora. Recentemente, passei a integrar a Seed a Bit, a Empresa Júnior de Tecnologia e Inovação da UFRPE, onde venho aplicando meus conhecimentos em projetos reais e colaborativos. 
                 </p>
             </div>
-            <div className='flex flex-row m-20 space-x-20 flex-wrap'>
+            <div className='flex flex-row m-20 px-[10%] space-x-20 flex-wrap'>
                 <Image 
                     src="/image/java.png" 
                     alt="java" 
                     width={70}
                     height={50}
+                    className='my-4'
 
                 />
                 <Image
@@ -28,6 +29,7 @@ function Sobre(){
 
                     width={50}
                     height={50} 
+                    className='my-4'
                 />
                 <Image
                     src="/image/react.png"
@@ -35,6 +37,7 @@ function Sobre(){
  
                     width={50}
                     height={50}
+                    className='my-4'
                 />
                 <Image
                     src="/image/python.png" 
@@ -42,6 +45,7 @@ function Sobre(){
  
                     width={50}
                     height={50}
+                    className='my-4'
                 />
                 <Image
                     src="/image/mySql.png" 
@@ -49,12 +53,14 @@ function Sobre(){
  
                     width={80}
                     height={50}
+                    className='my-4'
                 />
                 <Image
                     src="/image/postgreSql.png"
                     alt="postgreSql" 
                     width={80}
                     height={50}
+                    className='my-4'
                 />
             </div>
             
