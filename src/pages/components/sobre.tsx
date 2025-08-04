@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Sobre(){
     return(
-        <div className="min-h-screen bg-blu}tify-center flex-col text-center">
+        <div id="sobre" className="min-h-screen bg-blu}tify-center flex-col text-center">
             <div className="text-left mx-[15%]">
                 <h1 className="text-5xl font-bold mb-2 ">Sobre mim</h1>
                 <br />

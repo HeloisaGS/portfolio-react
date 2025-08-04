@@ -18,7 +18,7 @@ function CardProjeto({ image, title, description, repoLink }: CardProjetoProps) 
         height={10}
       />
       <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <h3 className="text-xl text-gray-900 font-semibold mb-2">{title}</h3>
         <p className="text-gray-600 mb-4 text-sm">{description}</p>
         <a
           href={repoLink}

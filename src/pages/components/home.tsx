@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Home(){
     return(
-        <div className="min-h-screen flex items-center justify-center flex-col text-center">
+        <div id="home" className="min-h-screen flex items-center justify-center flex-col text-center">
             <div className="flex flex-col sm:flex-row items-center mx-20">
                 <div className=" order-2 sm:order-1 sm:text-left">
                     <h1 className="text-5xl font-bold mb-2">Fullstack Developer </h1>

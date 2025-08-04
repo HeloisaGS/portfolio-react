@@ -33,7 +33,7 @@ export default function ThemeToggle() {
       {isDark ? (
         <MdOutlineLightMode className="text-yellow-300 text-xl" />
       ) : (
-        <MdOutlineDarkMode className="text-gray-700 text-xl" />
+        <MdOutlineDarkMode className="text-purple-900 text-xl" />
       )}
       <span className="text-sm">{isDark ? 'Light' : 'Dark'}</span>
     </button>

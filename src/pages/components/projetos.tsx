@@ -14,7 +14,7 @@ interface ProjetosProps{
 
 function Projetos({projetos =[]}: ProjetosProps){
     return(
-        <div className="min-h-screen flex items-center justify-center flex-col text-center">
+        <div id="projetos" className="min-h-screen flex items-center justify-center flex-col text-center">
             <div className="flex flex-col  items-center mx-20">
                 <div className="text-left mx-20">
                     <h1 className="text-5xl font-bold mb-2">Projetos</h1>
