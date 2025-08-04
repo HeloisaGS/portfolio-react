@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 
 function NavBar() {
-    let [openMenu, setOpenMenu] = useState(false);
+    const [openMenu, setOpenMenu] = useState(false);
     return(
         <nav>
             <div className="md:hidden">
