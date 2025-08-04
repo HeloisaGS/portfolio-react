@@ -4,7 +4,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 function Contato(){
     return(
-        <div className="min-h-screen bg-blue-100 flex items-center justify-center flex-col text-center">
+        <div className="min-h-screen  flex items-center justify-center flex-col text-center">
             <div className="text-left mx-20">
                 <h1 className="text-5xl font-bold mb-2 ">Contato</h1>
             </div>
